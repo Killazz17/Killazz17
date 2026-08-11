@@ -1,6 +1,6 @@
 # Hi, I'm Sebastián Benavides Madrigal 👋
 
-**Final-year Information Systems Engineering student — Universidad Nacional de Costa Rica (UNA)**
+**Information Systems Engineering — Universidad Nacional de Costa Rica (UNA)**
 
 I build layered software systems: Spring Boot REST APIs with JWT authentication, React front ends, and Java desktop applications. I'm interested in software architecture, databases, and cybersecurity.
 
