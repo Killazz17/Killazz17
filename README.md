@@ -5,8 +5,8 @@
 I build layered software systems: Spring Boot REST APIs with JWT authentication, React front ends, and Java desktop applications. I'm interested in software architecture, databases, and cybersecurity.
 
 - 🎓 Final year of Information Systems Engineering (expected graduation: 2027)
-- 🏛️ Currently building an inventory management system for **MIDEPLAN** (Ministry of National Planning, Costa Rica) as my Systems Engineering II capstone project
-- 🔐 Penetration testing practice at the **ICE** (Costa Rican Electricity Institute), Jul–Nov 2025
+- 🏛️ Currently building an inventory management system for **MIDEPLAN** (Ministerio de Planificación Nacional y Política Económica) as my Systems Engineering II capstone project
+- 🔐 Penetration testing practice at the **ICE** (Instituto Costarricense de Electricidad), Jul–Nov 2025
 - 📍 Heredia, Costa Rica
 
 ---
