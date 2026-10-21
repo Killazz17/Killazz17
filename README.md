@@ -7,7 +7,7 @@ I design and build REST APIs, write the tests that prove they work, and deploy t
 - 🎓 Final year of Information Systems Engineering — expected graduation 2027
 - ☁️ Building **Códice**: a Kotlin + Spring Boot API (~50 endpoints) on PostgreSQL, deployed to Google Cloud Run, plus its multi-module Android app
 - 🗄️ Lead contributor to **[DBA Monitor](https://github.com/dcalvo2202/dba-monitor)**, a Python/FastAPI tool that monitors a multitenant Oracle instance
-- 🏛️ Building the inventory system for **MIDEPLAN** (Costa Rica's Ministry of National Planning) in an 18-month SCRUM project
+- 🏛️ Building the procurement & inventory system for **MIDEPLAN** (Costa Rica's Ministry of National Planning): Laravel 12 on MySQL stored procedures, Active Directory + 2FA, PHPUnit and Cypress, in a 6-person SCRUM team
 - 🔐 Five-month security assessment practicum at the **ICE** (Instituto Costarricense de Electricidad)
 - 🌐 Spanish (native) · English (B2)
 - 💼 Open to a professional internship or a junior backend, full-stack or QA role — on-site, hybrid or remote
@@ -52,6 +52,8 @@ I design and build REST APIs, write the tests that prove they work, and deploy t
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![JUnit](https://img.shields.io/badge/JUnit%20%C2%B7%20Mockito-25A162?style=flat-square&logo=junit5&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman%20%C2%B7%20Newman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Cypress](https://img.shields.io/badge/Cypress-69D3A7?style=flat-square&logo=cypress&logoColor=black)
+![PHPUnit](https://img.shields.io/badge/PHPUnit-3C9CD7?style=flat-square&logo=php&logoColor=white)
 
 **AI-assisted development**
 
@@ -73,7 +75,7 @@ I use AI coding agents every day to plan, implement, test and review code: I wri
 | [Hospital System — Desktop client](https://github.com/Killazz17/hospital-management-frontend) | Swing MVC client with four role-specific interfaces and JFreeChart dashboards | Java 17, Swing, Gson, JFreeChart |
 | [Killazz Dev](https://killazz-dev-web.vercel.app) | Bilingual web-services site, built and deployed solo with CI/CD | Next.js, TypeScript, Tailwind, Vercel |
 
-Also private: the **MIDEPLAN** inventory system (institutional) and **TRG Bot**, a production Discord bot taking PayPal payments through signature-verified, idempotent webhooks (TypeScript, SQLite).
+Also private: the **MIDEPLAN** procurement & inventory system (institutional, Laravel 12) and **TRG Bot**, a production Discord bot taking PayPal payments through signature-verified, idempotent webhooks (TypeScript, SQLite).
 
 Most project documentation is in Spanish, as these are projects from Universidad Nacional de Costa Rica — happy to walk through any of them in English.
 
