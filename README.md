@@ -5,7 +5,8 @@
 I design and build REST APIs, write the tests that prove they work, and deploy them to the cloud — with Java/Kotlin and Spring Boot on the backend, React and Jetpack Compose on the front, and relational databases underneath. AI coding agents are part of my daily workflow.
 
 - 🎓 Final year of Information Systems Engineering — expected graduation 2027
-- ☁️ Building **Códice**: a Kotlin + Spring Boot API (~50 endpoints) on PostgreSQL, deployed to Google Cloud Run, plus its multi-module Android app
+- 🤖 Building **Códice**, an AI study assistant: students photograph handwritten notes and the Gemini API transcribes them and checks them against the syllabus — Kotlin + Spring Boot API on Google Cloud Run ([backend](https://github.com/Killazz17/codice-backend)) and a 10-module Android app ([android](https://github.com/Killazz17/codice-android))
+- 🔎 Built **[buscador-empleo](https://github.com/Killazz17/buscador-empleo)**, a Python CLI that scores job offers and drafts applications with AI but never sends anything without human approval — 274 tests, written test-first
 - 🗄️ Lead contributor to **[DBA Monitor](https://github.com/dcalvo2202/dba-monitor)**, a Python/FastAPI tool that monitors a multitenant Oracle instance
 - 🏛️ Building the procurement & inventory system for **MIDEPLAN** (Costa Rica's Ministry of National Planning): Laravel 12 on MySQL stored procedures, Active Directory + 2FA, PHPUnit and Cypress, in a 6-person SCRUM team
 - 🔐 Five-month security assessment practicum at the **ICE** (Instituto Costarricense de Electricidad)
@@ -39,7 +40,7 @@ I design and build REST APIs, write the tests that prove they work, and deploy t
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white)
-![Android](https://img.shields.io/badge/Android-Hilt%20%C2%B7%20Room-3DDC84?style=flat-square&logo=android&logoColor=white)
+![Android](https://img.shields.io/badge/Android-Hilt%20%C2%B7%20CameraX-3DDC84?style=flat-square&logo=android&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
 **Data, cloud & quality**
@@ -59,6 +60,7 @@ I design and build REST APIs, write the tests that prove they work, and deploy t
 
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
 ![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white)
+![Gemini API](https://img.shields.io/badge/Gemini%20API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-Figma%20%C2%B7%20Postman-555555?style=flat-square)
 
 I use AI coding agents every day to plan, implement, test and review code: I write project context files (`CLAUDE.md` / `AGENTS.md`) and custom agent skills, connect tools through MCP, and review every AI-generated change before it's merged.
@@ -67,7 +69,8 @@ I use AI coding agents every day to plan, implement, test and review code: I wri
 
 | Project | What it is | Stack |
 |---|---|---|
-| **Códice** (API + Android) | Academic platform: layered REST API with ~50 endpoints, JWT, PostgreSQL (15 tables in 3NF + jsonb), 30+ test classes and Postman/Newman suites, deployed with Docker to Cloud Run + Cloud SQL; multi-module Android client on Clean Architecture | Kotlin, Spring Boot 3, PostgreSQL, Flyway, Jetpack Compose, Hilt, Room |
+| **Códice** — [backend](https://github.com/Killazz17/codice-backend) · [android](https://github.com/Killazz17/codice-android) | AI study assistant: handwritten notes transcribed by Gemini and checked against the syllabus, with spaced-repetition reviews. Layered REST API with ~60 endpoints, JWT and rate limiting; PostgreSQL with a 3NF core plus jsonb for AI output (GIN benchmark written up as a paper); deployed with Docker to Cloud Run + Cloud SQL; 10-module Android app; 850+ tests | Kotlin, Spring Boot 3, PostgreSQL, Gemini API, Jetpack Compose, Hilt, CameraX |
+| [buscador-empleo](https://github.com/Killazz17/buscador-empleo) | Job-search CLI: fetches offers from four sources, scores them with explainable rules and drafts cover letters with AI; human approval enforced by a state machine, SQLite triggers and a SHA-256 fingerprint; 274 tests written test-first | Python, SQLite, FastAPI, Claude API |
 | [DBA Monitor](https://github.com/dcalvo2202/dba-monitor) | Web tool for a multitenant Oracle instance: health, tablespaces and growth, RMAN backups with a risk assessment, privilege auditing | Python, FastAPI, Oracle, PL/SQL |
 | [Job Portal — Backend](https://github.com/Killazz17/bolsa-empleo-backend) | REST API with three JWT role tiers, weighted candidate–job matching and monthly PDF reports | Spring Boot 3, Spring Security, JPA, MySQL, iText7 |
 | [Job Portal — Frontend](https://github.com/Killazz17/bolsa-empleo-frontend) | SPA with role-protected routes and a separate dashboard for admin, company and applicant | React 19, React Router 7, Vite |
